@@ -1,0 +1,38 @@
+.block__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+}
+
+.avatar__input,
+.avatar__btn {
+    color: #A392F4;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.found_pages{
+    display: flex;
+}
+
+.block__ava {
+    height: 500px;
+    
+}
+
+.info__btns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+.input__options{
+    margin-left: 0;
+}

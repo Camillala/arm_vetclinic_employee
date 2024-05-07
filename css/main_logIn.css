@@ -1,0 +1,87 @@
+.con__item {
+    color: white;
+}
+
+.container {
+    width: 560px;
+    height: 700px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 50px;
+}
+
+.con__left {
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.con__img {
+    width: 400px;
+}
+
+.con__right {
+    display: grid;
+}
+
+.con__header {
+    color: white;
+    padding: 50px 80px 0 80px;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-between;
+    font-family: SF Pro Display;
+    font-style: normal;
+}
+
+.tab {
+    color: white;
+    padding: 50px 80px 0 80px;
+    font-size: 49px;
+    justify-content: space-between;
+    font-family: SF Pro Display;
+    font-style: normal;
+    margin-top: 0;
+    text-align:center;
+    line-height: 0.5;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border: none;
+} 
+
+.tab__default {
+    display: block;
+}
+
+form {
+    display: grid;
+}
+
+form,
+.con__img {
+    padding:  50px 80px;
+}
+
+.form__label span {
+    color: red;
+}
+
+.form__label {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: SF Pro Display;
+}
+
+input {
+    padding: 15px;
+    background: none;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 25px;
+}

@@ -1,0 +1,357 @@
+.content {
+    padding: 50px 0;
+    max-width: 1900px;
+    margin: 0px auto;
+}
+
+.tabs {
+    margin: 0px 0px 50px 0px;
+}
+
+.tabs__items {
+    display: flex;
+}
+
+.tabs__item {
+    flex: 0 1 33.333%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.tabs__block {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    display: none;
+}
+
+.tabs__block:nth-child(1) {
+    margin-top: 50px;
+}
+
+.tabs__block:nth-child(2) {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tabs__block:target {
+    display: block;
+}
+
+/* подчеркивание внутренних вкладок */
+.tabs__item {
+    color: #A392F4;
+}
+
+.tabs__item {
+    color: #A392F4;
+    padding: 0 50px;
+}
+
+.tabs__item:hover,
+.tabs__item:active {
+    border-bottom: 3px solid;
+}
+
+/* конец подчеркивание внутренних вкладок */
+
+/* начало 1 вкладки */
+/* .block__inputs_patients {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.block__inputs_patients {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+
+    /* Центрирование по горизонтали */
+    gap: 20px;
+    /* Отступ между столбиками */
+    /* width: 800px; */
+    /* Ширина общего контейнера для двух столбиков */
+    margin: auto auto;
+    /* margin-left: 1000px; */
+    /* Центрирование по горизонтали */
+}
+
+.container_1 {
+    margin-left: 300px;
+}
+
+.info__block {
+    width: calc(50% - 10px);
+    /* Ширина каждого столбика (50% минус отступы) */
+    margin-bottom: 20px;
+    /* Отступ между блоками */
+}
+
+.info__block {
+    font-size: 24px;
+}
+
+.info__btn__save {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn__border__patients {
+    background: #A392F4;
+    border: 2px solid;
+    border-color: #A392F4;
+    color: white;
+}
+
+.info__input__patients {
+    width: 350px;
+    border-bottom: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #A392F4;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* конец 1 вкладки */
+
+/* начало 2 вкладки */
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.divider {
+    width: 2px;
+    background-color: #A392F4;
+    margin: 0 10px;
+}
+
+.rectangle {
+    width: 260px;
+    height: 96px;
+    background-color: #A392F4;
+    border-radius: 106px;
+    /* Задаем радиус скругления углов */
+    text-align: center;
+    /* Выравнивание текста по центру */
+    line-height: 100px;
+    /* Выравнивание текста по вертикали */
+    color: white;
+    font-size: 30px;
+    /* Размер текста */
+    font-family: SF Pro Display;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.date_input {
+    margin-top: 80px;
+}
+
+.row {
+    margin-bottom: 80px;
+    /* Отступ между строками */
+    display: flex;
+    /* Используем flexbox */
+    justify-content: center;
+}
+
+.underline {
+    width: 85%;
+    height: 1px;
+    background-color: #A392F4;
+}
+
+/* конец 2 вкладки */
+
+/* начало 3 вкладки */
+
+.container_diagnoz {
+    width: 80%;
+    /* Ширина контейнера */
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width: 100%;
+    /* Ширина строки */
+    height: 1px;
+    /* Высота линии */
+    background-color: #A392F4;
+    /* Цвет линии */
+    margin-bottom: 40px;
+    /* Отступ между строками */
+    font-size: 35px;
+}
+
+.status {
+    margin-top: 50px;
+    /* Корректируем положение текста по горизонтали */
+    background-color: #ffffff;
+    /* Цвет фона текста, чтобы скрыть линию под текстом */
+    border: #A392F4;
+    border-radius: 106px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.line_2 {
+    width: 80%;
+    /* Ширина линии */
+    height: 1px;
+    /* Высота линии */
+    background-color: #A392F4;
+    /* Цвет линии */
+    margin: auto auto;
+    /* Отступы по вертикали, автоматическое центрирование по горизонтали */
+    position: relative;
+    /* Позиционирование */
+}
+
+.btn_add {
+    margin-top: 30px;
+    width: 94px;
+    height: 70px;
+    display: inline-block;
+    border: 1px solid #A392F4;
+    cursor: pointer;
+    border-radius: 91px;
+    background-color: #A392F4;
+    font-size: 58px;
+    color: white;
+}
+
+/* Стили для выпадающего списка */
+.dropdown {
+    width: 100%;
+    border-bottom: 1px solid #A392F4;
+    /* Линия только снизу */
+    position: relative;
+    margin-top: 50px;
+
+    display: none;
+    /* По умолчанию скрываем контейнер */
+}
+
+/* Стили для списка */
+.dropdown select {
+    width: calc(100% - 20px);
+    /* Учитываем ширину стрелки */
+    appearance: none;
+    /* Скрыть стандартные стрелки */
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Стили для стрелки */
+.dropdown::after {
+    content: '\25BE';
+    /* Юникод символ для стрелки вниз */
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 50px;
+}
+
+/* Стили для контейнера */
+.notes-container {
+    width: 550px;
+    position: fixed;
+    font-family: Arial, sans-serif;
+    display: none;
+    /* По умолчанию скрываем контейнер */
+}
+
+/* Стили для блока заметок */
+.notes {
+    width: 100%;
+    height: 300px;
+    /* Высота блока заметок */
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    /* Включение вертикальной прокрутки, если контент превышает высоту блока */
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 20px, #f0f0f0 20px, #f0f0f0 21px);
+    line-height: 20px;
+    /* Высота линий */
+    resize: none;
+    /* Отключаем возможность изменения размера */
+}
+
+/* Стили для текста внутри блока заметок */
+.notes-content {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* Скрытие горизонтальной прокрутки */
+}
+
+/* Стили для кнопки */
+.add-button {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    width: 94px;
+    height: 70px;
+    display: inline-block;
+    border: 1px solid #A392F4;
+    cursor: pointer;
+    border-radius: 91px;
+    background-color: #A392F4;
+    font-size: 58px;
+    color: white;
+}
+
+.block__inputs_patients {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+
+/* конец 3 вкладки */

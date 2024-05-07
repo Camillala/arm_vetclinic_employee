@@ -1,0 +1,14 @@
+/* Пример подключения шрифта из файла font.css */
+@font-face {
+    font-family: 'SF-Pro-Text-Bold'; /* Замените YourCustomFont на имя вашего шрифта */
+    src: url('SF-Pro-Text-Bold.otf') format('opentype'); /* Замените your-font-file.woff2 на имя вашего файла шрифта */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF-Pro-Display-Medium'; /* Замените YourCustomFont на имя вашего шрифта */
+    src: url('SF-Pro-Display-Medium.otf') format('opentype'); /* Замените your-font-file.woff2 на имя вашего файла шрифта */
+    font-weight: normal;
+    font-style: normal;
+}

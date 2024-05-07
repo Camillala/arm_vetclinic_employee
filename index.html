@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main_logIn.css">
+
+    <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/logo_fav.svg" alt="">
+
+        <a class="btn__login" href=>Необходимо войти</a>
+
+    </header>
+
+    <main>
+
+        <div class="container con__left">
+            <img class="con__img" src="images/logo.svg" alt="">
+        </div>
+
+        <div class="container con__right">
+
+            <div class="tab">
+                <p></p>
+                Войти
+                <p>в личный кабинет</p>
+            </div>
+
+            <div id="Вход" class="tabcontent tab__default">
+                <form action="scripts/check.php" method="post">
+                    <span class="form__label">Логин или e-mail <span>*</span></span>
+                    <input id="login" type="text" name="login">
+                    <span class="form__label">Пароль <span>*</span></span>
+                    <input id="password" type="password" name="password">
+                    <button class="btn btn__border" type="submit" name="button_log">Войти</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

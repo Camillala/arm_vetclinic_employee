@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF-Pro-Display-Medium', sans-serif;
+    /* Используем ваш шрифт */
+    background-color: #F9F9F9;
+}
+
+
+.header {
+    height: 100px;
+    background-color: #A392F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    /* Увеличил размер шрифта для лучшей видимости */
+    color: #F9F9F9;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-height: 50%;
+}
+
+.admin-panel {
+    margin-left: 10px;
+    font-size: 18px;
+    /* Увеличил размер шрифта для лучшей видимости */
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    /* Добавлен стиль для центрирования текста по горизонтали */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Две колонки с равной шириной */
+    gap: 10px;
+    /* Расстояние между блоками */
+}
+
+/* Добавленные стили для вкладок */
+.tabs {
+    background-color: #F9F9F9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.tabs li {
+    margin-right: 40px;
+}
+
+.tabs a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'SF-Pro-Display-Medium', sans-serif;
+    color: #A392F4;
+}
+
+.tabs a:hover {
+    color: #A392F4;
+}
+
+/* Скрытие контента по умолчанию */
+.tab-content {
+    display: none;
+    width: 80%;
+    /* Ширина контейнера для вкладок */
+    margin: auto;
+    /* Центрирование по горизонтали */
+}
+
+/* Отображение контента, когда класс hidden не применен */
+.tab-content:not(.hidden) {
+    display: block;
+}
+
+/* Стили для Фамилии и Имени во вкладке ДОБАВИТЬ ПАЦИЕНТА */
+#patients-tab .info__block .info__label,
+#patients-tab .info__block .info__input__patients {
+    color: #A392F4;
+    /* Установите нужный цвет текста, например, синий */
+    font-size: 18px;
+}
+
+/* Стили для Фамилии и Имени во вкладке ДОБАВИТЬ СПЕЦИАЛИСТА */
+#specialists-tab .info__block .info__label,
+#specialists-tab .info__block .info__input__patients {
+    font-size: 18px;
+    /* Установите нужный размер шрифта, например, 18 пикселей */
+    color: #A392F4;
+}
+
+/* Стили для Фамилии и Имени во вкладке ДОБАВИТЬ СПЕЦИАЛИСТА */
+#specialists-tab .info__block2 .info__label2,
+#specialists-tab .info__block .info__input__patients {
+    font-size: 18px;
+    /* Установите нужный размер шрифта, например, 18 пикселей */
+    color: #A392F4;
+    font-family: 'SF-Pro-Text-Bold', sans-serif;
+}
+
+/* Стили для Фамилии и Имени во вкладке НАЗНАЧИТЬ ПРИЁМ */
+#appointments-tab .info__block .info__label,
+#appointments-tab .info__block .info__input__patients {
+    font-size: 18px;
+    /* Установите нужный размер шрифта, например, 18 пикселей */
+    color: #A392F4;
+}
+
+/* Стили для строк ввода внутри вкладок */
+.info__input__patients {
+    border: none;
+    /* Убираем обводку */
+    border-bottom: 1px solid #968dc6;
+    /* Добавляем линию с нужным цветом */
+    outline: none;
+    /* Убираем рамку фокуса при клике */
+    background-color: #F9F9F9;
+    /* Цвет фона */
+}
+
+.info__block {
+    margin-bottom: 20px;
+    /* Измените значение по вашему усмотрению */
+    width: 100%;
+    /* Блоки занимают всю ширину колонки */
+}
+
+.tab-content {
+    margin-top: 20px;
+    /* Измените значение по вашему усмотрению */
+}
+
+.info__column {
+    display: flex;
+    gap: 20px;
+    /* Расстояние между колонками */
+}
+
+.info__button {
+    font-family: 'SF-Pro-Text-Bold', sans-serif;
+    /* Укажите имя вашего шрифта */
+    font-size: 16px;
+    /* Измените размер шрифта по вашему вкусу */
+    color: #F9F9F9;
+    /* Укажите цвет текста, например, белый */
+    background-color: #A392F4;
+    /* Укажите цвет фона кнопки */
+    border-radius: 100px;
+    /* Укажите радиус закругления углов */
+    padding: 10px 20px;
+    /* Регулируйте отступы внутри кнопки */
+    cursor: pointer;
+    /* Добавьте курсор при наведении для интерактивности */
+    letter-spacing: -1px;
+}
+
+.info__button:hover {
+    background-color: #F9F9F9;
+    /* Измените цвет фона при наведении */
+    color: #A392F4;
+    /* Укажите цвет текста, например, белый */
+}
